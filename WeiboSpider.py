@@ -117,14 +117,14 @@ class Weibo:
                         'user_name': user_name,
                         'weibos': weibos,
                         'zhuanfa': zhuanfa,
-                        'p_time': post_time,
+                        'post_time': post_time,
                         'num_zan': num_zan,
                         'num_forwarding': num_forwarding,
                         'num_comment': num_comment,
                     }
                     data = data.append(value, ignore_index=True)
                     print(weibos)
-        data.to_csv("%s.csv" % gjc, encoding="UTF-8")
+        data.to_csv("%s.csv" % gjc, encoding="utf_8_sig")
         print("*******************爬取结束！*****************")
 
 if __name__ == '__main__':
