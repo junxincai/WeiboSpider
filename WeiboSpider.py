@@ -10,7 +10,7 @@ import re
 
 class Weibo:
     cookie = {
-        "Cookie": "SCF=ApK_S29VZJNvB4vVP-H9AGDdLA73EtqPbyHZzEvhkTxbOPLLvVm9OO3abK3-IQieUfxLcn-8bTC5H8F8MEadLHY.; _T_WM=c69f07eec64b0a27919f9c657e50e8d9; SUB=_2A25zjS7rDeRhGeBP41UY9ifFwzqIHXVRcbKjrDV6PUJbkdANLWTykW1NRTfjUgBWPea9WObHXCsAL4mbgUGr3cYn; SUHB=0N2FfgDuwpc2tE; SSOLoginState=1586060987",
+        "Cookie": "",
        }    #需填入cookies，登录weibo.cn，使用F12开发者工具找到cookie字段复制，具体操作网上很多教程
     agents = [
         "User-Agent:Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50",
